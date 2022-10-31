@@ -70,3 +70,5 @@ while time.time() < end_game:
 # when the loop ends this should print out the final cookies/sec
 cookies_per_sec = driver.find_element(By.ID, "cps").text
 print(f"Reached {cookies_per_sec} clicks per second")
+
+driver.quit()
